@@ -1,14 +1,21 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+      <ion-title>
+          Nextflow List Example
+      </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content>
+  <!-- Add ion-list and ion-item -->
+  <!--    Use *ngFor let item of array  -->
+  <ion-list>
+    <ion-item *ngFor="let item of friendArray">
+      <h2>{{item.name}}</h2> 
+      <p>{{item.phoneNumber}}</p>
+      <ion-avatar item-left>
+        <img src="{{item.imageUrl}}">
+      </ion-avatar>
+    </ion-item>
+  </ion-list>
 </ion-content>
