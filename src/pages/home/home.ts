@@ -19,7 +19,13 @@ export class HomePage {
   ];
 
   constructor(public navCtrl: NavController) {
+    //การประกาศ constructor แบบ public นี้ทำให้สามารถไปเรียก NavController mี่ไหนก็ได้
+    
+  }
 
+  show(item){
+    console.log(item);
+    this.navCtrl.push('FriendDetailPage',item);
   }
 
 
