@@ -25,4 +25,7 @@ export class FriendDetailPage {
     console.log(this.friendData);
   }
 
+  call() {
+    window.open('tel:'+this.friendData.phoneNumber)  // เปิดใช้ระบบโทรศัพท์
+  }
 }
