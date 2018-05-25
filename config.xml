@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>List</name>
-    <description>Example List view in Ionic</description>
+<widget id="th.co.praewiiezzcontact" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>My Contact</name>
+    <description>My Contact friend</description>
     <author email="training@nextflow.in.th" href="https://www.nextflow.in.th/">Nextflow Training</author>
     <content src="index.html" />
     <access origin="*" />
